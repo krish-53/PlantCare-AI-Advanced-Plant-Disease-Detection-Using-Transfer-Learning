@@ -1,0 +1,45 @@
+1. Coding Proficiency
+Depending on how much previous experience you have with coding in a specific language, you may have to develop new “coding muscles”. Before getting into your code, you should feel comfortable in these areas: 
+
+Programming: An advanced level of fluency in at least one programming language, preferably Python. You will be using machine learning libraries such as TensorFlow, Keras, or PyTorch.
+
+Deep Learning Concepts: Have an understanding of convolutional neural networks (CNNs) (e.g., which layers make up a CNN, what the purpose of a filter is, and how pooling works)?
+
+Transfer Learning: Understand how to "freeze" the base layers of a neural network and "fine-tune" the final dense layers.
+
+Evaluation Metrics: Understanding the concepts of accuracy, precision, recall and F1 score will be critical for evaluating imbalanced data sets.
+
+Image Processing: Understanding the different basic image processing functions available in OpenCV or PIL for manipulating images. For example (resizing, normalizing, changing from RGB to Grayscale color space).
+
+2.Data Inspirations
+An "Artificial Intelligence" for your plant is only as sound as the background from which it learns.
+
+Dataset: The majority developers will begin with using the PlantVillage Dataset where you can find over 54,000 pictures of healthy plants and diseased plants.
+
+Data Augmentation: Given that plant diseases can look different under various lighting and angles you must be aware of applying the following;
+
+Rotations and Flips
+
+Zoom and Shear
+
+Brightness and contrast adjustments
+
+Class Labeling: Ensuring you have structured your data correctly [Dataset/Class Name/Image.jpg]
+
+3."Transfer Learning" Backbone
+Do not develop a model from the ground up. Do some homework and select a Pre-trained Model (Backbone):
+| Model | Best for |
+| -- | -- |
+| MobileNetV2 | Speed/lightweight (Good for use in mobile apps) |
+| ResNet50 | Very accurate, deeper than original models |
+| InceptionV3 | Great for complex feature extraction |
+| EfficientNet | The best balance of computational cost/accuracy
+
+4.Hardware and Software Environment
+Hardware: A NVIDIA GPU (with CUDA support) is highly recommended. Use Google Colab or Kaggle Kernels if you do not have access to a powerful GPU on your local machine (Google Colab/Kaggle provide free access to GPU).
+
+5.Software Stack:
+Python version 3.10 or newer
+Deep Learning Framework: Use TensorFlow/Keras or PyTorch
+Development Environment: Jupyter Notebooks / VS Code
+Deployment (optional): Flask/FastAPI (for web tool), TFLite (for mobile app)
