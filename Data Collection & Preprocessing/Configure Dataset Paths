@@ -1,0 +1,8 @@
+import os
+
+train_dir = "dataset/train"
+valid_dir = "dataset/valid"
+test_dir  = "dataset/test"
+
+classes = os.listdir(train_dir)
+print("Total Classes:", len(classes))
