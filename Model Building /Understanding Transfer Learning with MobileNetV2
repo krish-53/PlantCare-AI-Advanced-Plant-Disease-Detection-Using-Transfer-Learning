@@ -1,0 +1,15 @@
+What is Transfer Learning? Transfer learning is a machine learning technique where a model developed for one task is reused as the starting point for a model on a second task. It's a popular approach in deep learning where pre-trained models are used as the starting point on computer vision and natural language processing tasks.
+
+Why MobileNetV2?
+
+MobileNetV2 is specifically designed for mobile and embedded vision applications.It features:
+
+● Efficient Architecture: Uses depthwise separable convolutions
+
+● Inverted Residuals: Linear bottleneck layers
+
+● Lightweight: Fewer parameters compared to other architectures
+
+● High Accuracy: Maintains competitive accuracy despite smaller size
+
+● Pre-trained Weights: Trained on ImageNet with 1000 classes
