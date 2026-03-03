@@ -1,16 +1,26 @@
-# Activity 1.3: Data Preprocessing and Augmentation
+# PlantCare AI: Advanced Disease Detection 🌿
+### Using Transfer Learning & Computer Vision
 
-## Objective
-To preprocess plant leaf images and apply minimal data augmentation.
+This project uses **Transfer Learning** to identify plant diseases from leaf images with high accuracy. By leveraging a pre-trained "backbone" (like MobileNetV2 or ResNet), we can detect complex pathologies even with a limited dataset.
 
-## Description
-The dataset used in this project already contains augmented images. Therefore, only minimal augmentation is applied during training.
+---
 
-## Steps Performed
-- Image resizing to 224×224
-- MobileNetV2 preprocessing
-- Minimal augmentation
-- Training and validation generators created
+## 🚀 Project Overview
+Traditional CNNs require weeks of training. This project uses a **Pre-trained Model** as a feature extractor, allowing for:
+* **Faster Training:** Achieve 95%+ accuracy in minutes.
+* **Lower Data Requirements:** Works well even with smaller, niche datasets.
+* **Edge Deployment:** Optimized for mobile use.
 
-## Outcome
-Dataset is ready for model training.
+
+
+---
+
+## 📋 Prerequisites
+
+### 1. Hardware
+* **Minimum:** 8GB RAM.
+* **Recommended:** NVIDIA GPU (for CUDA acceleration) or [Google Colab](https://colab.research.google.com/).
+
+### 2. Software & Libraries
+Ensure you have **Python 3.9+** installed. You can install the dependencies using:
+```bash
